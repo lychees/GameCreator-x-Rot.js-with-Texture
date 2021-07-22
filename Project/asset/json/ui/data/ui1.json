@@ -1,0 +1,274 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "42254365299_0.44715336593450794",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "标题背景",
+                "x": 0,
+                "y": 0,
+                "width": 1200,
+                "height": 720,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/titles/Title_1.png",
+                "grid9": "3,3,3,3,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "43898714879_0.40705355433509327",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "半透明框",
+                "x": 826,
+                "y": 0,
+                "width": 374,
+                "height": 720,
+                "opacity": 0.25,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/other/Black.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "43900232230_0.2994264051442339",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "苍之羽标志",
+                "x": 820,
+                "y": 135,
+                "width": 202,
+                "height": 202,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/other/BlueFeather.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "43812710574_0.1490047165345576",
+                "condition": [],
+                "type": "UIString",
+                "name": "游戏标题",
+                "x": 883,
+                "y": 220,
+                "width": 288,
+                "height": 79,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "新的游戏",
+                "fontSize": 70,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "思源黑体",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": true,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000",
+                "onChangeFragEvent": null
+            },
+            {
+                "id": "31870501239_0.5446454449699711",
+                "condition": [],
+                "type": "UIButton",
+                "name": "开始游戏按钮",
+                "x": 902,
+                "y": 420,
+                "width": 219,
+                "height": 58,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "开始游戏",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "15,15,15,15,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "15,15,15,15,0",
+                "image3": "asset/image/picture/control/btn_click.png",
+                "grid9img3": "15,15,15,15,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "思源黑体",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "42588246189_0.3946571868821098",
+                "condition": [],
+                "type": "UIButton",
+                "name": "读取存档按钮",
+                "x": 902,
+                "y": 500,
+                "width": 219,
+                "height": 58,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "读取存档",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "10,10,10,10,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "10,10,10,10,0",
+                "image3": "asset/image/picture/control/btn_click.png",
+                "grid9img3": "10,10,10,10,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "思源黑体",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "42588260235_0.0513781451358899",
+                "condition": [],
+                "type": "UIButton",
+                "name": "退出游戏按钮",
+                "x": 902,
+                "y": 580,
+                "width": 219,
+                "height": 58,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "退出游戏",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "10,10,10,10,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "10,10,10,10,0",
+                "image3": "asset/image/picture/control/btn_click.png",
+                "grid9img3": "10,10,10,10,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "思源黑体",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 1,
+    "instanceClassName": "",
+    "hasRootCommand": []
+}

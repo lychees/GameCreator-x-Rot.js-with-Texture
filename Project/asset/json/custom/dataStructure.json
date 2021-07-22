@@ -1,0 +1,1129 @@
+{
+    "list": {
+        "1": [
+            null,
+            "preloadAsset",
+            "packageItem",
+            "keys",
+            "compName",
+            "shopItem"
+        ],
+        "2": [
+            null,
+            ""
+        ],
+        "3": [
+            null
+        ],
+        "16": [
+            null,
+            ""
+        ]
+    },
+    "type": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "16": "插件"
+    },
+    "data": {
+        "1": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 1,
+            "blockList": [
+                {
+                    "name": "资源类型",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "42274016143_0.3606524346615032",
+                                "varName": "assetType",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 2,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,预设字体",
+                                        "showIndex": false
+                                    }
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "资源类型",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274128257_0.7693347532398582",
+                                "varName": "asset0",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 13,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "图片",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 0,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 45,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274316193_0.9817474353824893",
+                                "varName": "asset1",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 20,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "音频",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 1,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 85,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274334319_0.7267370846452468",
+                                "varName": "asset2",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 3,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "行走图",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 2,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 125,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274349671_0.6137841774478328",
+                                "varName": "asset3",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 29,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "立绘",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 3,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 165,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274373810_0.09608247862214703",
+                                "varName": "asset4",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 4,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "动画",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 4,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 205,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42274384594_0.7200405886051113",
+                                "varName": "asset5",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 5,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "界面",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 5,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 245,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42275106447_0.35108458677988863",
+                                "varName": "asset6",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 26,
+                                    "compParam": {
+                                        "items": "图片,音频,行走图,立绘,动画,界面,对话框样式,文本,JSON",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "对话框",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "42274016143_0.3606524346615032",
+                                    "value": 6,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 285,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 330,
+                    "autoOrder": true,
+                    "hideBlockTitle": true
+                }
+            ]
+        },
+        "2": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 2,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "42584247848_0.40725763592479436",
+                                "varName": "item",
+                                "varType": 4,
+                                "compData": {
+                                    "compType": 1002,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "道具",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "42584274592_0.2905378118596802",
+                                "varName": "number",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 0,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "数目",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 9,
+                            "x": 370,
+                            "width": 175,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 50,
+                    "autoOrder": true,
+                    "hideBlockTitle": false
+                }
+            ]
+        },
+        "3": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 3,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "43114682576_0.48427625078329206",
+                                "varName": "key",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 27,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "按键",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 15,
+                            "width": 300,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 50,
+                    "autoOrder": true,
+                    "hideBlockTitle": false
+                }
+            ]
+        },
+        "4": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 4,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "43117615830_0.8939021862877166",
+                                "varName": "未命名变量1",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 9,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 15,
+                            "width": 175,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 50,
+                    "autoOrder": true,
+                    "hideBlockTitle": false
+                }
+            ]
+        },
+        "5": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 5,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "57890206620_0.875722521284694",
+                                "varName": "item",
+                                "varType": 4,
+                                "compData": {
+                                    "compType": 1002,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": true,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "道具",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 10,
+                            "width": 190,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890254488_0.19624758937394038",
+                                "varName": "数量",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 32,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 200,
+                            "width": 30,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890288239_0.9470459373622089",
+                                "varName": "numberType",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 2,
+                                    "compParam": {
+                                        "items": "无限,常量,变量",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 365,
+                            "width": 65,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890356047_0.004919857279445994",
+                                "varName": "number",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 0,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890288239_0.9470459373622089",
+                                    "value": 1,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 230,
+                            "width": 140,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890356207_0.8246483952673749",
+                                "varName": "numberVar",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 6,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890288239_0.9470459373622089",
+                                    "value": 2,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 230,
+                            "width": 140,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890511677_0.9385627666989265",
+                                "varName": "无限数量",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 32,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890288239_0.9470459373622089",
+                                    "value": 0,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 200,
+                            "width": 120,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890629573_0.34676950965602327",
+                                "varName": "价格",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 32,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 470,
+                            "width": 30,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890682921_0.6743336935200184",
+                                "varName": "priceType",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 2,
+                                    "compParam": {
+                                        "items": "默认,常量,变量",
+                                        "showIndex": false
+                                    }
+                                },
+                                "defaultValue": "0",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 10,
+                            "x": 635,
+                            "width": 65,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890733719_0.6305947699767265",
+                                "varName": "price",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 0,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "0",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890682921_0.6743336935200184",
+                                    "value": 1,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 500,
+                            "width": 140,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890733919_0.3448354404111935",
+                                "varName": "priceVar",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 6,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "1",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": false,
+                                "titleWidth": 0,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890682921_0.6743336935200184",
+                                    "value": 2,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 500,
+                            "width": 140,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "57890734119_0.6677483710672627",
+                                "varName": "默认价格",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 32,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": true,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "57890682921_0.6743336935200184",
+                                    "value": 0,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 10,
+                            "x": 200,
+                            "width": 120,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 300,
+                    "autoOrder": true,
+                    "hideBlockTitle": false
+                }
+            ]
+        },
+        "1001": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 1001,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [],
+                    "blockCondition": [],
+                    "blockHeight": 300,
+                    "autoOrder": true
+                }
+            ]
+        },
+        "15001": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 15001,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [],
+                    "blockCondition": [],
+                    "blockHeight": 300,
+                    "autoOrder": true,
+                    "hideBlockTitle": false
+                }
+            ]
+        }
+    }
+}
