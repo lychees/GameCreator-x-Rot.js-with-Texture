@@ -1,3 +1,5 @@
+let first_blood = false;
+
 /**
  * 场景-项目层实现类
  * Created by 黑暗之神KDS on 2020-09-08 17:10:24.
@@ -115,9 +117,46 @@ class ProjectClientScene extends ClientScene {
      * @param gameData 游戏数据
      */
     parse(jsonObj: any, gameData: GameData): void {
-        super.parse(jsonObj, gameData);
+        super.parse(jsonObj, gameData);                
+        
+        if (first_blood) {
+            this.gen();            
+        } else {
+            first_blood = true;
+        }
         // 创建场景工具
         this.sceneUtils = new SceneUtils(this);
+    }
+    /**
+     * 生成随机地图
+     */    
+    gen() {
+        let w = this.gridWidth;
+        let h = this.gridHeight;
+
+        Roguelike.Main.start_level(w, h);
+
+        // console.log(this.LayerDatas[0]);
+        let a = this.LayerDatas[0].tileData;
+        let x0 = -1;
+        let y0 = -1; 
+        for (let x=0;x<w;++x) {
+            for (let y=0;y<h;++y) {
+                if (Roguelike.Main.map.isPassable(x, y)) {
+                    if (x0 == -1) {
+                        x0 = x;
+                        y0 = y;
+                    }
+                } else {
+                    a[x][y].x = 48;
+                    a[x][y].y = 48;
+                }
+            }
+        }        
+        console.log(Game.player);
+        Game.player.toScene(2, x0*48, y0*48);
+        //Game.player.toScene(2, 200, 200);
+        console.log(Game.player);        
     }
     /**
      * 当渲染时：每帧执行的逻辑

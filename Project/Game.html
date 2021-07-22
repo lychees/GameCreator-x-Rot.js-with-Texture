@@ -43,7 +43,7 @@
     window.onerror = function(errorMessage, scriptURI, lineNumber,columnNumber,errorObj){
 		if(parent.catchError){
 		    parent.catchError("kdsrpgConsoleError",errorMessage, scriptURI, lineNumber, columnNumber, errorObj);
-			if(!errorObj || !errorObj.stack)return;
+			if(!errorObj.stack)return;
 			var stackArr = errorObj.stack.split("\n    at ");
 			stackArr.shift();
 			stackArr.shift();
@@ -82,6 +82,7 @@
 	}
 </script>
 <script type="text/javascript" src="GameCreatorLib/gamecreator.js" ></script>
+<script type="text/javascript" src="Game/game/roguelike/libs/rot.js" ></script>
 <script type="text/javascript" src="Game/game/custom/CustomCommand1.js" ></script>
 <script type="text/javascript" src="Game/game/custom/CustomCommand2.js" ></script>
 <script type="text/javascript" src="Game/game/custom/CustomCondition.js" ></script>
@@ -103,10 +104,11 @@
 <script type="text/javascript" src="Game/game/project/utils/ProjectUtils.js" ></script>
 <script type="text/javascript" src="Game/game/project/ProjectGame.js" ></script>
 <script type="text/javascript" src="Game/game/project/ProjectPlayer.js" ></script>
+<script type="text/javascript" src="Game/game/roguelike/map/map.js" ></script>
+<script type="text/javascript" src="Game/game/roguelike/tiles/Tiles.js" ></script>
+<script type="text/javascript" src="Game/game/roguelike/Main.js" ></script>
 <script type="text/javascript" src="Game/game/GameGate.js" ></script>
 <script type="text/javascript" src="Game/game/GCMain.js" ></script>
-<script type="text/javascript" src="Game/GCplug/200/StandAvatarChangePartCommand.js" ></script>
-<script type="text/javascript" src="Game/GCplug/201/GC_OpenAPI_Ranking.js" ></script>
 <script type="text/javascript" src="Game/system/MaterialRuntime.js" ></script>
 <script type="text/javascript" src="Game/system/SceneObjectModels.js" ></script>
 <script type="text/javascript" src="Game/system/UIRuntime.js" ></script>
@@ -116,7 +118,7 @@
 <script type="text/javascript" src="Game/game/project/ui/GUI_Save.js" ></script>
 <script type="text/javascript" src="Game/game/project/ui/GUI_Setting.js" ></script>
 <script type="text/javascript" src="Game/game/project/ui/GUI_Shop.js" ></script>
-<script type="text/javascript" src="Game/GCplug/201/GUI_GCUserRanking.js" ></script><script>
+<script type="text/javascript" src="Game/game/roguelike/tiles/creature/Creature.js" ></script><script>
                var runParamsArr = window.location.href.split("?").pop().split("runParams=");
                var runParams;
                if(runParamsArr.length==2){

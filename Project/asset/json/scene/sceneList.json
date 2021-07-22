@@ -2,7 +2,7 @@
     "list": [
         null,
         "新的地图1",
-        null,
+        "新的场景2",
         null,
         null,
         null,
@@ -36,6 +36,11 @@
             "name": "新的地图1",
             "children": [],
             "isOpen": true
+        },
+        {
+            "id": 2,
+            "name": "新的场景2",
+            "children": []
         }
     ]
 }

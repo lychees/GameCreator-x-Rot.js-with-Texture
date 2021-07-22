@@ -4,16 +4,16 @@
         {
             "modelID": 1,
             "index": 1,
-            "name": "接待员黑白",
-            "x": 600,
-            "y": 360,
+            "name": "未命名1",
+            "x": 601,
+            "y": 459,
             "z": 0,
             "materialData": [
                 {
                     "materials": []
                 }
             ],
-            "avatarID": 8,
+            "avatarID": 5,
             "avatarOri": 2,
             "avatarAct": 1,
             "avatarFPS": 12,
@@ -27,7 +27,7 @@
             "displayList": {
                 "avatar": {
                     "type": 1,
-                    "id": 8
+                    "id": 5
                 }
             },
             "layerLevel": 1,
@@ -279,24 +279,19 @@
         {
             "condition": [],
             "customCommands": [
+                [],
                 [
                     [
-                        11,
-                        6,
-                        null,
-                        "",
-                        3,
-                        1,
-                        "<span style='color:#FfFffF'>欢迎使用GameCreator！我是苍之\n</span><span style='color:#FfFffF'>羽的临时接待员黑白，让我们从这\n</span><span style='color:#FfFffF'>里开始你的游戏制作梦想之旅！</span>",
-                        null,
-                        1,
-                        0,
+                        21,
+                        false,
+                        2,
+                        10,
+                        10,
                         {
-                            "___cmdID": "61354014678_0.35825318457704136"
+                            "___cmdID": "69366798841_0.020902980969268015"
                         }
                     ]
                 ],
-                [],
                 [],
                 [],
                 []

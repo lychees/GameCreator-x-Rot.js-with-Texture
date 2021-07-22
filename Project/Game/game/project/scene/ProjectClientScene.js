@@ -3,6 +3,7 @@
 
 
 
+var first_blood = false;
 var ProjectClientScene = (function (_super) {
     __extends(ProjectClientScene, _super);
     function ProjectClientScene() {
@@ -65,7 +66,38 @@ var ProjectClientScene = (function (_super) {
     };
     ProjectClientScene.prototype.parse = function (jsonObj, gameData) {
         _super.prototype.parse.call(this, jsonObj, gameData);
+        if (first_blood) {
+            this.gen();
+        }
+        else {
+            first_blood = true;
+        }
         this.sceneUtils = new SceneUtils(this);
+    };
+    ProjectClientScene.prototype.gen = function () {
+        var w = this.gridWidth;
+        var h = this.gridHeight;
+        Roguelike.Main.start_level(w, h);
+        var a = this.LayerDatas[0].tileData;
+        var x0 = -1;
+        var y0 = -1;
+        for (var x = 0; x < w; ++x) {
+            for (var y = 0; y < h; ++y) {
+                if (Roguelike.Main.map.isPassable(x, y)) {
+                    if (x0 == -1) {
+                        x0 = x;
+                        y0 = y;
+                    }
+                }
+                else {
+                    a[x][y].x = 48;
+                    a[x][y].y = 48;
+                }
+            }
+        }
+        console.log(Game.player);
+        Game.player.toScene(2, x0 * 48, y0 * 48);
+        console.log(Game.player);
     };
     ProjectClientScene.prototype.onRender = function () {
         _super.prototype.onRender.apply(this, arguments);

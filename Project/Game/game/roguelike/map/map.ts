@@ -138,10 +138,10 @@ namespace Roguelike {
             this.layer[exit.x][exit.y].push(exit);        
             // 生成箱子与钥匙        
 
-            let ui1 = GameUI.get(1);        
-            this.isFov = !ui1.isFov.selected;
-            let isBox = ui1.isBox.selected;
-            let isGuard = ui1.isGuard.selected;
+    
+            this.isFov = true;
+            let isBox = true;
+            let isGuard = false;
             
             if (isBox) {
                 for (var i=0;i<3;i++) {

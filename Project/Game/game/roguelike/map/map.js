@@ -122,10 +122,9 @@ var Roguelike;
             player.set_shadow();
             var exit = this.createTileFromSpaces(Roguelike.Exit, spaces);
             this.layer[exit.x][exit.y].push(exit);
-            var ui1 = GameUI.get(1);
-            this.isFov = !ui1.isFov.selected;
-            var isBox = ui1.isBox.selected;
-            var isGuard = ui1.isGuard.selected;
+            this.isFov = true;
+            var isBox = true;
+            var isGuard = false;
             if (isBox) {
                 for (var i = 0; i < 3; i++) {
                     var box = this.createTileFromSpaces(Roguelike.Box, spaces);
