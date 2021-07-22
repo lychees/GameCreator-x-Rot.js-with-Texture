@@ -3829,6 +3829,365 @@
                     "materials": []
                 }
             ]
+        },
+        {
+            "dx": 0,
+            "dy": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "rotation": 0,
+            "xMove": 0,
+            "yMove": 0,
+            "prospectsPerX": 1,
+            "prospectsPerY": 1,
+            "xLoop": false,
+            "yLoop": false,
+            "opacity": 1,
+            "blendMode": null,
+            "drawMode": true,
+            "tileData": [
+                null,
+                null,
+                null,
+                null,
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                        "texID": 11,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "autoTileDataCache": [],
+            "img": null,
+            "modeType": true,
+            "modeLock": false,
+            "showOnEditor": true,
+            "tileTexIDs": {
+                "11": true
+            }
         }
     ],
     "bgm": "asset/audio/bgm/Epic_3.mp3",

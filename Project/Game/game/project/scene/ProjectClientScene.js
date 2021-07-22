@@ -79,9 +79,12 @@ var ProjectClientScene = (function (_super) {
         var h = this.gridHeight;
         Roguelike.Main.start_level(w, h);
         var a = this.LayerDatas[0].tileData;
+        var shadow_layer = this.LayerDatas[0];
+        var b = shadow_layer.tileData;
         var x0 = -1;
         var y0 = -1;
         for (var x = 0; x < w; ++x) {
+            b.push([]);
             for (var y = 0; y < h; ++y) {
                 if (Roguelike.Main.map.isPassable(x, y)) {
                     if (x0 == -1) {
@@ -93,11 +96,23 @@ var ProjectClientScene = (function (_super) {
                     a[x][y].x = 48;
                     a[x][y].y = 48;
                 }
+                if (Roguelike.Main.map.shadow[x][y] != 0) {
+                    b[x].push({
+                        "x": 0,
+                        "y": 0,
+                        "texID": 11,
+                    });
+                }
+                else {
+                    b[x].push({
+                        "x": 48,
+                        "y": 0,
+                        "texID": 11,
+                    });
+                }
             }
         }
-        console.log(Game.player);
-        Game.player.toScene(2, x0 * 48, y0 * 48);
-        console.log(Game.player);
+        Game.player.toScene(2, x0 * 48 + 24, y0 * 48 + 24);
     };
     ProjectClientScene.prototype.onRender = function () {
         _super.prototype.onRender.apply(this, arguments);
